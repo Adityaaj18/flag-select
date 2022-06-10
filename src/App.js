@@ -8,7 +8,7 @@ import InputGroup from 'react-bootstrap/InputGroup'
 import { GiCancel } from 'react-icons/gi'
 
 function App() {
-   const [color, setColor] = useState('red')
+   const [color, setColor] = useState('')
    const [status, setStatus] = useState('')
    return (
       <div className="container">
